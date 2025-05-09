@@ -1,12 +1,14 @@
-import Layout from "./components/Layout";
-import Splash from "./components/Splash";
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { LanguageProvider } from "./context/LanguageContext";
 
-const userLang = navigator.language;
-const SPLASH_DURATION = 3000; // Duración del splash screen en milisegundos
+import { SPLASH_DURATION } from "./config/constants";
+import Splash from "./components/Splash";
 
+const userLang = navigator.language;
 document.documentElement.lang = userLang;
+
+// Lazy loading de componentes
+const Layout = lazy(() => import("./components/Layout"));
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,7 +28,9 @@ const App = () => {
 
   return (
     <LanguageProvider>
-      <Layout />
+      <Suspense fallback={<Splash />}>
+        <Layout />
+      </Suspense>
     </LanguageProvider>
   );
 };
