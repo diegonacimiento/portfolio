@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import HeaderMobile from "./HeaderMobile";
 import { HeaderProps } from "../../types/types";
 import NavBar from "./NavBar";
@@ -9,10 +9,19 @@ const screenMobile = window.innerWidth <= 712 || window.innerHeight <= 575;
 const Header: React.FC<HeaderProps> = ({ language, changeLanguage }) => {
   const [isMobile, setIsMobile] = useState(screenMobile);
 
-  addEventListener("resize", () => {
-    const mobile = window.innerWidth <= 712 || window.innerHeight <= 575;
-    setIsMobile(mobile);
-  });
+  useEffect(() => {
+    const handleResize = () => {
+      const mobile = window.innerWidth <= 712 || window.innerHeight <= 575;
+      setIsMobile(mobile);
+    };
+
+    window.addEventListener("resize", handleResize);
+    
+    // Limpieza del event listener
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const redirectHome = () => {
     window.location.href = "";

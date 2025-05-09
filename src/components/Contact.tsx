@@ -6,10 +6,11 @@ import "../assets/css/Contact.css";
 
 const Contact: React.FC<LangProps> = ({ language }) => {
   const { navBar, contactPhrase } = getLanguage(language);
+  
   return (
-    <section id="section-contact" data-aos="fade-right">
-      <h2 className="title-section">{navBar.contact}</h2>
-      <div className="logo-contact"></div>
+    <section id="section-contact" data-aos="fade-right" aria-labelledby="contact-title">
+      <h2 id="contact-title" className="title-section">{navBar.contact}</h2>
+      <div className="logo-contact" aria-hidden="true"></div>
       <h3>{contactPhrase}</h3>
       <div className="container-item-contact">
         {contactList.map((item, index) => (
@@ -25,6 +26,8 @@ const Contact: React.FC<LangProps> = ({ language }) => {
                 : item.link
             }
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${item.name} - ${language ? 'Abrir en nueva pestaña' : 'Open in new tab'}`}
           >
             <div
               className="item-icon-contact"
@@ -36,6 +39,7 @@ const Contact: React.FC<LangProps> = ({ language }) => {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
               }}
+              aria-hidden="true"
             ></div>
             <p>{item.name}</p>
           </a>
