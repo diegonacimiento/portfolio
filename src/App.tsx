@@ -1,6 +1,7 @@
 import Layout from "./components/Layout";
 import Splash from "./components/Splash";
 import { useState, useEffect } from "react";
+import { LanguageProvider } from "./context/LanguageContext";
 
 const userLang = navigator.language;
 const SPLASH_DURATION = 3000; // Duración del splash screen en milisegundos
@@ -23,7 +24,11 @@ const App = () => {
     return <Splash />;
   }
 
-  return <Layout />;
+  return (
+    <LanguageProvider>
+      <Layout />
+    </LanguageProvider>
+  );
 };
 
 export default App;
