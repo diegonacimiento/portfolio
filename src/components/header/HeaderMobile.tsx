@@ -21,7 +21,7 @@ const HeaderMobile: React.FC<HeaderProps> = ({ language, changeLanguage }) => {
       modalDrawer?.removeAttribute("style");
       body?.removeAttribute("style");
     } else {
-      containerDrawer.current?.setAttribute("style", "width: 150px;");
+      containerDrawer.current?.setAttribute("style", "width: 190px;");
       modalDrawer?.setAttribute("style", "width: 100vw;");
       body?.setAttribute("style", "height: 100vh; overflow: hidden;");
       setTimeout(() => {
