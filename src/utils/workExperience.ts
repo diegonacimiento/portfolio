@@ -13,7 +13,7 @@ const workExperienceListEn = [
     startDate: "Ago, 2024",
     endDate: "Feb, 2025",
     mode: "Remote",
-    body: "Developed cross-platform mobile applications using React Native (Expo and CLI) for various clients including a pet store, a fire safety equipment store, and a social network. Implemented features such as offline data synchronization, push notifications, and real-time updates. Created location-based services using MapBox for store locators and delivery tracking. Built responsive web applications with Next.js, implementing server-side rendering and optimizing performance. Collaborated with UX designers to create intuitive interfaces, resulting in a 30% increase in user engagement.",
+    body: "Developed cross-platform mobile applications using React Native (Expo and CLI) for various clients including a pet store, a fire safety equipment store, and a social network. Implemented features such as offline data synchronization, push notifications, and real-time updates. Created an innovative 3D world visualization using MapBox for the social network, enabling real-time location tracking and interaction between users in a virtual environment. Built responsive web applications with Next.js, implementing server-side rendering and optimizing performance. Collaborated with UX designers to create intuitive interfaces, resulting in a 30% increase in user engagement.",
   },
   {
     position: "Full stack developer",
@@ -40,7 +40,7 @@ const workExperienceListEs = [
     startDate: "Ago, 2024",
     endDate: "Feb, 2025",
     mode: "Remoto",
-    body: "Desarrollé aplicaciones móviles multiplataforma usando React Native (Expo y CLI) para diversos clientes, incluyendo una tienda de mascotas, una tienda de equipos de seguridad contra incendios y una red social. Implementé funcionalidades como sincronización de datos offline, notificaciones push y actualizaciones en tiempo real. Creé servicios basados en ubicación usando MapBox para localizadores de tiendas y seguimiento de entregas. Construí aplicaciones web responsivas con Next.js, implementando renderizado del lado del servidor y optimizando el rendimiento. Colaboré con diseñadores UX para crear interfaces intuitivas, resultando en un aumento del 30% en el compromiso de los usuarios.",
+    body: "Desarrollé aplicaciones móviles multiplataforma usando React Native (Expo y CLI) para diversos clientes, incluyendo una tienda de mascotas, una tienda de equipos de seguridad contra incendios y una red social. Implementé funcionalidades como sincronización de datos offline, notificaciones push y actualizaciones en tiempo real. Creé una innovadora visualización de mundo 3D usando MapBox para la red social, permitiendo el seguimiento de ubicación en tiempo real y la interacción entre usuarios en un entorno virtual. Construí aplicaciones web responsivas con Next.js, implementando renderizado del lado del servidor y optimizando el rendimiento. Colaboré con diseñadores UX para crear interfaces intuitivas, resultando en un aumento del 30% en el compromiso de los usuarios.",
   },
   {
     position: "Desarrollador Full Stack",
