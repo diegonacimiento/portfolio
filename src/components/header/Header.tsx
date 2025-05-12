@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = ({ language, changeLanguage }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      const mobile = window.innerWidth <= 712 || window.innerHeight <= 575;
+      const mobile = window.innerWidth <= 890 || window.innerHeight <= 575;
       setIsMobile(mobile);
     };
 

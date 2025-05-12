@@ -8,13 +8,14 @@ export default {
   navBar: {
     aboutMe: "Sobre mí",
     workExperience: "Experiencia laboral",
-    projects: "Proyectos",
+    projects: "Proyectos personales",
     contact: "Contacto",
   },
   // SECTION PRESENTATION
-  presentation: `Programo y
-aprendo todos los días, siempre busco mejorar como persona y como
-profesional. Soy autodidacta por excelencia, amante de los desafíos y apasionado del aprendizaje.`,
+  presentation: `Desarrollador Full Stack apasionado por la innovación y el aprendizaje continuo. 
+Me especializo en crear soluciones tecnológicas eficientes y escalables, 
+combinando mi experiencia técnica con una mentalidad autodidacta y orientada a resultados. 
+Siempre en busca de nuevos desafíos que me permitan crecer tanto profesional como personalmente.`,
 
   // SECTION WORK EXPERIENCE
   workExperience: workExperienceListEs,
