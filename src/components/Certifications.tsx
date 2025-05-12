@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { certifications } from '../content/certifications';
 import '../assets/css/Certifications.css';
 
-const categories = ['all', 'frontend', 'backend', 'tools', 'fundamentals'] as const;
+const categories = ['all', 'frontend', 'backend', 'tools', 'fundamentals', 'languages', 'other'] as const;
 
 interface CertificationsProps {
   language: boolean;
@@ -22,9 +22,13 @@ export const Certifications: React.FC<CertificationsProps> = ({ language }) => {
       frontend: 'Frontend',
       backend: 'Backend',
       tools: language ? 'Herramientas' : 'Tools',
-      fundamentals: language ? 'Fundamentos' : 'Fundamentals'
+      fundamentals: language ? 'Fundamentos' : 'Fundamentals',
+      languages: language ? 'Lenguajes' : 'Languages',
+      other: language ? 'Otros' : 'Other'
     }
   };
+
+  console.log(certifications.length)
 
   return (
     <section id="section-certifications">
@@ -53,7 +57,7 @@ export const Certifications: React.FC<CertificationsProps> = ({ language }) => {
           >
             <h3>{cert.title}</h3>
             <p>{cert.institution}</p>
-            <p className="date">{cert.startDate} - {cert.endDate}</p>
+            <p className="date">{cert.date}</p>
             <p>{cert.description}</p>
           </a>
         ))}
