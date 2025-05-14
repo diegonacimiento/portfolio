@@ -245,15 +245,6 @@ export const certifications: Certification[] = [
       "url": "https://platzi.com/p/diegonacimiento18/curso/2877-course/diploma/detalle/"
     },
     {
-      "id": "curso-html-css",
-      "title": "Curso Definitivo de HTML y CSS",
-      "institution": "Platzi",
-      "category": "frontend",
-      "description": "",
-      "date": "07/12/2022",
-      "url": "https://platzi.com/p/diegonacimiento18/curso/2008-course/diploma/detalle/"
-    },
-    {
       "id": "curso-ingles-principiantes",
       "title": "Curso de Inglés para Principiantes: Saludos y Presentaciones (2018)",
       "institution": "Platzi",
@@ -396,6 +387,15 @@ export const certifications: Certification[] = [
       "description": "",
       "date": "06/07/2022",
       "url": "https://platzi.com/p/diegonacimiento18/curso/1798-course/diploma/detalle/"
-    }
+    },
+    {
+      "id": "curso-html-css",
+      "title": "Curso Definitivo de HTML y CSS",
+      "institution": "Platzi",
+      "category": "frontend",
+      "description": "",
+      "date": "24/04/2022",
+      "url": "https://platzi.com/p/diegonacimiento18/curso/2008-course/diploma/detalle/"
+    },
   ]
  

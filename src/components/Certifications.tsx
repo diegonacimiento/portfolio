@@ -15,6 +15,13 @@ export const Certifications: React.FC<CertificationsProps> = ({ language }) => {
     ? certifications
     : certifications.filter(cert => cert.category === selectedCategory);
 
+  // Ordenar certificaciones por fecha (más reciente primero)
+  const sortedCertifications = [...filteredCertifications].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB.getTime() - dateA.getTime();
+  });
+
   const translations = {
     title: language ? 'Certificaciones' : 'Certifications',
     categories: {
@@ -47,7 +54,7 @@ export const Certifications: React.FC<CertificationsProps> = ({ language }) => {
       </div>
 
       <div className="certifications-grid">
-        {filteredCertifications.map(cert => (
+        {sortedCertifications.map(cert => (
           <a
             key={cert.id}
             href={cert.url}
