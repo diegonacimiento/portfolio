@@ -46,8 +46,26 @@
 
 .container-body {
   color: #ced4da;
-  line-height: 1.6;
-  text-align: justify;
+  line-height: 1.8;
+  padding-left: 20px;
+  margin: 0;
+  list-style: none;
+}
+
+.container-body li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.container-body li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #00d4ff;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 712px) {

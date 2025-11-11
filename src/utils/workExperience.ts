@@ -5,23 +5,37 @@ const workExperienceListEn = [
     startDate: "Oct, 2024",
     endDate: "Present",
     mode: "In person",
-    body: "Leading the development of a comprehensive educational management system using Next.js for the frontend and NestJS for the backend. Implemented secure authentication with JWT and role-based access control. Developed RESTful APIs for student records, course management, and attendance tracking. Created responsive dashboards for administrators, teachers, and preceptors, enabling them to manage student attendance, disciplinary records, and academic performance. Additionally, managing the institution's official website using WordPress, handling content updates and maintenance.",
+    body: [
+      "Developed from scratch two academic management web applications (secondary and higher education levels) with over 1,000 active users.",
+      "Coordinated with administrators to convert requirements into a functional architecture, designing databases and system workflows.",
+      "Both systems completely replaced a manual process based on more than 50 spreadsheets, reducing errors, permission issues, and administrative time by 90%.",
+      "Performed individual development including design, backend, frontend, and cloud deployment.",
+      "Implemented institutional best practices in code and digital infrastructure management, establishing the use of institutional accounts and transferring ownership of all services (website, repositories, domains) to ensure the institution's independence and security.",
+    ],
   },
   {
     position: "Full stack developer",
     company: "Novexis Consulting",
-    startDate: "Ago, 2024",
-    endDate: "Feb, 2025",
+    startDate: "Aug, 2024",
+    endDate: "Jan, 2025",
     mode: "Remote",
-    body: "Developed cross-platform mobile applications using React Native (Expo and CLI) for various clients including a pet store, a fire safety equipment store, and a social network. Implemented features such as offline data synchronization, push notifications, and real-time updates. Created an innovative 3D world visualization using MapBox for the social network, enabling real-time location tracking and interaction between users in a virtual environment. Built responsive web applications with Next.js, implementing server-side rendering and optimizing performance. Collaborated with UX designers to create intuitive interfaces, resulting in a 30% increase in user engagement.",
+    body: [
+      "Developed mobile applications with React Native for various clients:",
+      "RoxBarf: e-commerce platform for a pet store in Mexico.",
+      "Sofocón: sales and customer registration app that improved the productivity of the Uruguayan team.",
+      "Tribe: global social network where I led frontend development, coordinating technical decisions alongside another developer for an Italian client.",
+      "Collaborated with designers and backend developers to integrate REST APIs and improve workflows, applying best practices for versioning and documentation.",
+    ],
   },
   {
     position: "Full stack developer",
     company: "Kiura",
     startDate: "Jun, 2024",
-    endDate: "Ago, 2024",
+    endDate: "Aug, 2024",
     mode: "Remote",
-    body: "Participated in backend development using Express and NestJS, contributing to API design and implementation. Worked with MongoDB, MySQL, and PostgreSQL databases, gaining experience in database management and optimization. Assisted in implementing API documentation using Swagger to improve integration processes. Collaborated with the team on testing practices and development workflows.",
+    body: [
+      "Participated in backend development using Express and NestJS, contributing to API design and implementation.",
+    ],
   },
 ];
 
@@ -32,15 +46,27 @@ const workExperienceListEs = [
     startDate: "Oct, 2024",
     endDate: "Presente",
     mode: "Presencial",
-    body: "Liderando el desarrollo de un sistema integral de gestión educativa utilizando Next.js para el frontend y NestJS para el backend. Implementé autenticación segura con JWT y control de acceso basado en roles. Desarrollé APIs RESTful para registros de estudiantes, gestión de cursos y seguimiento de asistencia. Creé paneles responsivos para administradores, profesores y preceptores, permitiéndoles gestionar la asistencia de estudiantes, registros disciplinarios y rendimiento académico. Además, administro el sitio web oficial de la institución usando WordPress, manejando actualizaciones de contenido y mantenimiento.",
+    body: [
+      "Desarrollo desde cero de dos aplicaciones web de gestión académica (niveles secundario y superior), con más de 1000 usuarios activos.",
+      "Coordiné con directivos para convertir requerimientos en una arquitectura funcional, diseñando base de datos y flujos del sistema.",
+      "Ambos sistemas reemplazaron por completo un proceso manual basado en más de 50 planillas de cálculo, reduciendo en 90% los errores, permisos problemáticos y tiempo administrativo.",
+      "Desarrollo realizado de forma individual, incluyendo diseño, backend, frontend y despliegue en entornos cloud.",
+      "Implementé buenas prácticas institucionales en la gestión del código y la infraestructura digital, estableciendo el uso de cuentas institucionales y realizando el traspaso de titularidad de todos los servicios (sitio web, repositorios, dominios) para garantizar la independencia y seguridad de la institución.",
+    ],
   },
   {
     position: "Desarrollador Full Stack",
     company: "Novexis Consulting",
     startDate: "Ago, 2024",
-    endDate: "Feb, 2025",
+    endDate: "Ene, 2025",
     mode: "Remoto",
-    body: "Desarrollé aplicaciones móviles multiplataforma usando React Native (Expo y CLI) para diversos clientes, incluyendo una tienda de mascotas, una tienda de equipos de seguridad contra incendios y una red social. Implementé funcionalidades como sincronización de datos offline, notificaciones push y actualizaciones en tiempo real. Creé una innovadora visualización de mundo 3D usando MapBox para la red social, permitiendo el seguimiento de ubicación en tiempo real y la interacción entre usuarios en un entorno virtual. Construí aplicaciones web responsivas con Next.js, implementando renderizado del lado del servidor y optimizando el rendimiento. Colaboré con diseñadores UX para crear interfaces intuitivas, resultando en un aumento del 30% en el compromiso de los usuarios.",
+    body: [
+      "Desarrollo de apps móviles con React Native para diversos clientes:",
+      "RoxBarf: e-commerce para una tienda de mascotas en México.",
+      "Sofocón: app de registro de ventas y clientes, mejorando la productividad del equipo uruguayo.",
+      "Tribe: red social global; lideré el desarrollo del frontend, coordinando decisiones técnicas junto a otro desarrollador para un cliente italiano.",
+      "Colaboración con diseñadores y backend developers para integrar APIs REST y mejorar los flujos de trabajo, aplicando buenas prácticas de versionado y documentación.",
+    ],
   },
   {
     position: "Desarrollador Full Stack",
@@ -48,7 +74,9 @@ const workExperienceListEs = [
     startDate: "Jun, 2024",
     endDate: "Ago, 2024",
     mode: "Remoto",
-    body: "Participé en el desarrollo backend utilizando Express y NestJS, contribuyendo al diseño e implementación de APIs. Trabajé con bases de datos MongoDB, MySQL y PostgreSQL, adquiriendo experiencia en gestión y optimización de bases de datos. Colaboré en la implementación de documentación de API usando Swagger para mejorar los procesos de integración. Trabajé en equipo en prácticas de testing y flujos de trabajo de desarrollo.",
+    body: [
+      "Participé en el desarrollo backend utilizando Express y NestJS, contribuyendo al diseño e implementación de APIs.",
+    ],
   },
 ];
 
