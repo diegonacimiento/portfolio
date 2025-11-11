@@ -43,6 +43,7 @@ const Presentation: React.FC<LangProps> = ({ language }) => {
               id="img-presentation" 
               ref={image} 
               onClick={rotateImage}
+              style={{ backgroundPosition: "center" }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             />
