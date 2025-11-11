@@ -2,7 +2,7 @@ const contactList = [
   {
     name: "LinkedIn",
     icon: "https://i.imgur.com/JZ7EL9R.png",
-    link: "https://www.linkedin.com/in/diego-nacimiento-01b2b025a/",
+    link: "https://www.linkedin.com/in/diegonacimiento",
   },
   {
     name: "Gmail",
