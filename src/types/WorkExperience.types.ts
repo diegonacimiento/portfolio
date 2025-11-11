@@ -4,5 +4,5 @@ export type WorkExperience = {
   startDate: string;
   endDate: string;
   mode: string;
-  body: string;
+  body: string[];
 };

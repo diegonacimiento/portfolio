@@ -50,12 +50,16 @@ const WorkExperience: React.FC<LangProps> = ({ language }) => {
                 </motion.p>
               </motion.div>
 
-              <motion.p 
+              <motion.ul 
                 className="container-body"
                 variants={fadeInUp}
               >
-                {experience.body}
-              </motion.p>
+                {experience.body.map((item, itemIndex) => (
+                  <motion.li key={itemIndex} variants={fadeInUp}>
+                    {item}
+                  </motion.li>
+                ))}
+              </motion.ul>
             </motion.div>
           ))}
         </motion.div>
