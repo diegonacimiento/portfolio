@@ -6,7 +6,7 @@ header {
   padding: 0 80px;
   height: 100px;
   width: 100%;
-  background-color: #00111c;
+  background-color: #000d14;
   z-index: 10;
 }
 
@@ -137,7 +137,7 @@ header {
   flex: 1;
 }
 
-@media only screen and (max-width: 712px), (max-height: 575px) {
+@media only screen and (max-width: 890px), (max-height: 575px) {
   header {
     padding: 0;
     height: 80px;

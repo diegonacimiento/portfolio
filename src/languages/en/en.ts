@@ -8,12 +8,15 @@ export default {
   navBar: {
     aboutMe: "About me",
     workExperience: "Work experiencie",
-    projects: "Projects",
+    projects: "Personal projects",
     contact: "Contact",
   },
 
   // SECTION PRESENTATION
-  presentation: `I program and learn every day, always seeking to improve myself both personally and professionally. I am a self-taught learner par excellence, passionate about challenges and devoted to continuous learning.`,
+  presentation: `Full Stack Developer passionate about innovation and continuous learning. 
+I specialize in creating efficient and scalable technological solutions, 
+combining my technical experience with a self-taught and results-oriented mindset. 
+Always seeking new challenges that allow me to grow both professionally and personally.`,
 
   // SECTION WORK EXPERIENCE
   workExperience: workExperienceListEn,
