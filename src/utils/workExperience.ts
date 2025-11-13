@@ -47,10 +47,10 @@ const workExperienceListEs = [
     endDate: "Presente",
     mode: "Presencial",
     body: [
-      "Desarrollo desde cero de dos aplicaciones web de gestión académica (niveles secundario y superior), con más de 1000 usuarios activos.",
+      "Desarrollé desde cero dos aplicaciones web de gestión académica (niveles secundario y superior), con más de 1000 usuarios activos.",
       "Coordiné con directivos para convertir requerimientos en una arquitectura funcional, diseñando base de datos y flujos del sistema.",
       "Ambos sistemas reemplazaron por completo un proceso manual basado en más de 50 planillas de cálculo, reduciendo en 90% los errores, permisos problemáticos y tiempo administrativo.",
-      "Desarrollo realizado de forma individual, incluyendo diseño, backend, frontend y despliegue en entornos cloud.",
+      "Realicé el desarrollo de forma individual, incluyendo diseño, backend, frontend y despliegue en entornos cloud.",
       "Implementé buenas prácticas institucionales en la gestión del código y la infraestructura digital, estableciendo el uso de cuentas institucionales y realizando el traspaso de titularidad de todos los servicios (sitio web, repositorios, dominios) para garantizar la independencia y seguridad de la institución.",
     ],
   },
@@ -61,11 +61,11 @@ const workExperienceListEs = [
     endDate: "Ene, 2025",
     mode: "Remoto",
     body: [
-      "Desarrollo de apps móviles con React Native para diversos clientes:",
+      "Desarrollé apps móviles con React Native para diversos clientes:",
       "RoxBarf: e-commerce para una tienda de mascotas en México.",
       "Sofocón: app de registro de ventas y clientes, mejorando la productividad del equipo uruguayo.",
       "Tribe: red social global; lideré el desarrollo del frontend, coordinando decisiones técnicas junto a otro desarrollador para un cliente italiano.",
-      "Colaboración con diseñadores y backend developers para integrar APIs REST y mejorar los flujos de trabajo, aplicando buenas prácticas de versionado y documentación.",
+      "Colaboré con diseñadores y backend developers para integrar APIs REST y mejorar los flujos de trabajo, aplicando buenas prácticas de versionado y documentación.",
     ],
   },
   {
