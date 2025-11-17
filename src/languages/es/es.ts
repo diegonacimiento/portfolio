@@ -2,7 +2,7 @@ import { workExperienceListEs } from "../../utils/workExperience";
 
 export default {
   // ROL
-  presentationRol: "Desarrollador full stack",
+  presentationRol: "Software Engineer | Full Stack Developer",
 
   // NAV BAR
   navBar: {
@@ -12,7 +12,7 @@ export default {
     contact: "Contacto",
   },
   // SECTION PRESENTATION
-  presentation: `Desarrollador Full Stack apasionado por la innovación y el aprendizaje continuo. 
+  presentation: `Software Engineer | Full Stack Developer apasionado por la innovación y el aprendizaje continuo. 
 Me especializo en crear soluciones tecnológicas eficientes y escalables, 
 combinando mi experiencia técnica con una mentalidad autodidacta y orientada a resultados. 
 Siempre en busca de nuevos desafíos que me permitan crecer tanto profesional como personalmente.`,

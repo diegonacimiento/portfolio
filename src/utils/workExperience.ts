@@ -1,6 +1,6 @@
 const workExperienceListEn = [
   {
-    position: "Full stack developer",
+    position: "Software Engineer",
     company: "Instituto Superior San Basilio Magno",
     startDate: "Oct, 2024",
     endDate: "Present",
@@ -14,7 +14,7 @@ const workExperienceListEn = [
     ],
   },
   {
-    position: "Full stack developer",
+    position: "Full Stack Developer",
     company: "Novexis Consulting",
     startDate: "Aug, 2024",
     endDate: "Jan, 2025",
@@ -28,7 +28,7 @@ const workExperienceListEn = [
     ],
   },
   {
-    position: "Full stack developer",
+    position: "Full Stack Developer",
     company: "Kiura",
     startDate: "Jun, 2024",
     endDate: "Aug, 2024",
@@ -41,7 +41,7 @@ const workExperienceListEn = [
 
 const workExperienceListEs = [
   {
-    position: "Desarrollador Full Stack",
+    position: "Software Engineer",
     company: "Instituto Superior San Basilio Magno",
     startDate: "Oct, 2024",
     endDate: "Presente",
@@ -55,7 +55,7 @@ const workExperienceListEs = [
     ],
   },
   {
-    position: "Desarrollador Full Stack",
+    position: "Full Stack Developer",
     company: "Novexis Consulting",
     startDate: "Ago, 2024",
     endDate: "Ene, 2025",
@@ -69,7 +69,7 @@ const workExperienceListEs = [
     ],
   },
   {
-    position: "Desarrollador Full Stack",
+    position: "Full Stack Developer",
     company: "Kiura",
     startDate: "Jun, 2024",
     endDate: "Ago, 2024",
